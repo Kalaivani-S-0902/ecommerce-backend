@@ -144,6 +144,8 @@ CORS_ALLOWED_ORIGINS = [
     "https://ecommerce-frontend-five-swart.vercel.app",
 ]
 CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
