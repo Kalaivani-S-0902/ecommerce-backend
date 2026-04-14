@@ -66,7 +66,7 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
 ]
-ROOT_URLCONF = 'ecommerce.urls'
+ROOT_URLCONF = 'ecommerce.ecommerce.urls'
 
 TEMPLATES = [
     {
