@@ -147,3 +147,6 @@ CORS_ALLOW_CREDENTIALS = True
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join('ecommerce','media')
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+print("BASE_DIR =", BASE_DIR)
+print("MEDIA_ROOT =", MEDIA_ROOT)
